@@ -1,5 +1,26 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["common"],{
 
+/***/ "./src/app/base-page.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/base-page.component.ts ***!
+  \****************************************/
+/*! exports provided: BasePageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BasePageComponent", function() { return BasePageComponent; });
+class BasePageComponent {
+    constructor(router, appState) {
+        this.router = router;
+        this.appState = appState;
+        this.appState.accessRoute();
+    }
+}
+
+
+/***/ }),
+
 /***/ "./src/share/footer/footer.component.ts":
 /*!**********************************************!*\
   !*** ./src/share/footer/footer.component.ts ***!
