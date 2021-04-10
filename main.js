@@ -152,6 +152,9 @@ class AppComponent {
             this.bgStyle['height.px'] = this.containerH;
             this.bgStyle['min-height.px'] = this.containerH;
         }
+        else {
+            delete this.bgStyle['height.px'];
+        }
     }
     ngOnInit() {
     }
