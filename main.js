@@ -138,7 +138,7 @@ class AppComponent {
         this.setWH();
     }
     setWH() {
-        this.bgStyle = {};
+        // this.bgStyle = {};
         let width = this.innerWidth - 100;
         let height = (this.innerWidth / 1.8) - 100;
         if (height > this.innerHeight) {
@@ -150,6 +150,7 @@ class AppComponent {
         this.bgStyle['width.px'] = this.containerW;
         if (!this.isPostScreen) {
             this.bgStyle['height.px'] = this.containerH;
+            this.bgStyle['min-height.px'] = this.containerH;
         }
     }
     ngOnInit() {
